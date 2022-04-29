@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    
+    margin:300px auto;
+    max-width: 980px;
+    
+}
+.title{
+    /* font-family: 'Inter' sans-serif; */
+    display: flex;
+    justify-content: center;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+
+
+}
+
+.wrapp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list{
+    padding: 24px;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
+    max-width: 595px;
+    gap: 24px;
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+border-radius: 16px;
+}
+.list ul{
+    list-style-type: none;
+}
+.li{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20px 455px 20px ;
+    grid-gap:16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkBox{
+    display: inline-block
+}
+
+
+.active{
+    color: green;
+}
+
+
+.list-input{
+    font-family: 'Inter', sans-serif;
+    padding:9px 230px 9px 14px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    
+}
+.list button{
+    border:none;
+    border-radius: 4px;
+}
+
+.list-button{
+    margin-left: 24px;
+    font-family: 'Inter', sans-serif;
+    padding:10px 32px 10px 24px ;
+    background-color: #272829;
+    color:#F5F5F5
+
+    
+}
+
+.crossBtn{
+    padding:0;
+    background-color: #F5F5F5;
+    border:none;
+    color:#DC3545
+}
+
+.delete-buttons{
+    display:flex;
+    justify-content: space-between;
+    background-color: #afa9a9;
+    gap: 295px;
+    margin-top: -12px;
+    padding: 16px 24px 18px 24px;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+
+}
+
+.delete-complite-inactive{
+    display:none;
+}
+.delete-comp{
+    border-radius: 4px;
+    border: none;
+    padding: 10px 16px;
+    background-color:#6C757D;;
+    color:aliceblue;
+}
+
+.delete-all-inactive{
+    display:none;
+}
+.delete-all{
+    border-radius: 4px;
+    border: none;
+    padding:10px 16px;
+    background-color: #DC3545;
+    color: aliceblue;
+}
+.for-delete{
+    
+}
