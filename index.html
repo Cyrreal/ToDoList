@@ -17,7 +17,7 @@
         <h1 class="title">ToDo List</h1>
         <div class="wrapp">
             <div class="list">
-                <input id="input" class="list-input" placeholder="Введите свою задачу">
+                <input id="input" name="name" class="list-input" placeholder="Введите свою задачу">
                 <button id="addButton" class="list-button">Добавить</button>
                 <!-- <hr class="border-line"> -->
                 <ul id="ul"></ul>
@@ -32,6 +32,29 @@
                     Удалить все
                 </button>
             </div>
+
+        </div>
+        <!-- <div style="display:none" id="registration" class="registration">
+            <form action="GET" class="form" id="signUp">
+                <input class='input-name' name="fname" type="text" value="" placeholder="enter ur name" required>
+                <input class='input-password' name="sname" type="password" value="" placeholder="enter ur password"
+                    required>
+                <button type="submit">Sign</button>
+            </form>
+
+        </div> -->
+        <div style="display:none" id="registration" class="registration">
+            <form action="GET" class="form" id="regestration-form">
+                <input class='input-name' name="username" type="text" value="" placeholder="enter name" required>
+                <input class='input-fname' name="fname" type="text" value="" placeholder="enter ur first name" required>
+                <input class='input-sname' name="sname" type="text" value="" placeholder="enter ur second name"
+                    required>
+                <input class='input-lname' name="lname" type="text" value="" placeholder="enter ur last name" required>
+                <input class='input-email' name="email" type="email" value="" placeholder="enter ur email" required>
+                <input class='input-password' type="password" value="" placeholder="enter ur password" required>
+                <button class="reg-btn" type="submit">Sign</button>
+            </form>
+
 
         </div>
     </main>

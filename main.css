@@ -30,6 +30,10 @@ body{
     align-items: center;
 }
 
+.wrap-active{
+    display: none;
+}
+
 .list{
     padding: 24px;
     /* display: flex; */
@@ -126,3 +130,58 @@ border-radius: 16px;
 .for-delete{
     
 }
+
+.registration{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.registtration.inactive{
+    display: none;
+}
+
+.form{
+    gap:10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+}
+
+.form input {
+    padding: 5px;
+    /* border-radius: 8px; */
+    border: none;
+    border-bottom: 1px solid #4d5257;
+}
+
+.form button{
+    
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 8px;
+    padding:8px 20px;
+    border: none;
+    background-color: #272829;
+    color:#F5F5F5
+}
+
+.input-fname{
+    
+}
+.input-sname{
+    
+}
+.input-lname{
+    
+}
+
+.input-password{
+    
+}
+
